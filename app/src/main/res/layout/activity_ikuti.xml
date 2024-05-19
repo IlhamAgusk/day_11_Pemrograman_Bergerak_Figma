@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IkutiActivity"
+    android:background="@drawable/iphone_14_15_pro_max___14">
+
+    <ImageButton
+        android:id="@id/img_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/images_1_2"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_icon_by_kanggraphic_1_580x386_2"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="85dp"/>
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vector_heart_line_black_icon_2"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="268dp"/>
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_profile_icon_free_vector_2"
+        android:layout_marginTop="695dp"
+        android:layout_marginLeft="337dp"/>
+
+    <ImageButton
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ellipse_1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
